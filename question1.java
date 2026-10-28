@@ -4,13 +4,13 @@ public class question1 {
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Enter first number: ");
-        int a = sc.nextInt();
+        int c = sc.nextInt();
 
         System.out.print("Enter second number: ");
         int b = sc.nextInt();
 
         try {
-            int result = a / b;   // may cause divide-by-zero
+            int result = c / b;   // may cause divide-by-zero
             System.out.println("Result: " + result);
         } catch (ArithmeticException e) {
             System.out.println("Error: Cannot divide by zero!");
